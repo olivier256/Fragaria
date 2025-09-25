@@ -287,6 +287,14 @@
 			name = Headers;
 			sourceTree = "<group>";
 		};
+		09FFF2CF2E8507880048D625 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C87621610EAC800488AF2 /* General.png */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +334,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				09FFF2CF2E8507880048D625 /* Recovered References */,
 			);
 			name = KosmicEditor;
 			sourceTree = "<group>";
@@ -859,6 +868,7 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "Fragaria Document Based App-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -881,6 +891,7 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "Fragaria Document Based App-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -907,7 +918,7 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "MGSFragaria-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -935,7 +946,7 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "MGSFragaria-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6.8;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -960,6 +971,7 @@
 				GCC_PREFIX_HEADER = Fragaria_Prefix.pch;
 				INFOPLIST_FILE = "Fragaria copy-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_NAME = Fragaria;
 			};
 			name = Debug;
@@ -974,6 +986,7 @@
 				GCC_PREFIX_HEADER = Fragaria_Prefix.pch;
 				INFOPLIST_FILE = "Fragaria copy-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_NAME = Fragaria;
 			};
 			name = Release;

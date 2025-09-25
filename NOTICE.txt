@@ -1,0 +1,16 @@
+NOTICE
+------
+
+This project includes code from Fragaria, originally created by Jonathan Gillaspie (Mugginsoft) 
+and contributors, and later maintained in forks such as shysaur/Fragaria and KosmicTask/Fragaria. 
+The original work is licensed under the Apache License, Version 2.0.
+
+You may obtain a copy of the License at:
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Modifications in this fork:
+- Updated project configuration for modern versions of Xcode and macOS (Apple Silicon support).
+- Adjusted build settings for compatibility with Trikcy68k.
+- Bug fixes and maintenance applied after 2025.
+
+All modifications © 2025 olivier256
